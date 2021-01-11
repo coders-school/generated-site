@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Konsultacje - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/categories/konsultacje/</link>
+        <description>Konsultacje - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 06 Oct 2018 21:56:47 &#43;0000</lastBuildDate><atom:link href="https://coders.school/categories/konsultacje/" rel="self" type="application/rss+xml" /><item>
+    <title>Darmowe konsultacje z C&#43;&#43;</title>
+    <link>https://coders.school/post/darmowe-konsultacje-z-cpp/</link>
+    <pubDate>Sat, 06 Oct 2018 21:56:47 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/darmowe-konsultacje-z-cpp/</guid>
+    <description><![CDATA[Odpowiadając na potrzeby osób, które zostać programistami, a nie wiedzą: czego się uczyć, jakie są dobre praktyki oraz czy wiedza wykładana na uczelniach przygotowuje do pracy w komercyjnych projektach - oferujemy darmowe konsultacje z języka C++.]]></description>
+</item></channel>
+</rss>

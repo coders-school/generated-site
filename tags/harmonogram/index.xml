@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>harmonogram - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/harmonogram/</link>
+        <description>harmonogram - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 10 Sep 2018 14:30:30 &#43;0000</lastBuildDate><atom:link href="https://coders.school/tags/harmonogram/" rel="self" type="application/rss+xml" /><item>
+    <title>Harmonogramy kursu C&#43;&#43; w edycji styczniowej 2019</title>
+    <link>https://coders.school/post/harmonogramy-kursu-cpp-w-edycji-listopadowej/</link>
+    <pubDate>Mon, 10 Sep 2018 14:30:30 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/harmonogramy-kursu-cpp-w-edycji-listopadowej/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div>Udostępniamy wam dzisiaj wstępne harmonogramy kursu C++, który odbywał się będzie w formie stacjonarnej we Wrocławiu. Zaczęliśmy już przyjmować zgłoszenia na kurs, nadal mamy jeszcze wolne miejsca.]]></description>
+</item></channel>
+</rss>

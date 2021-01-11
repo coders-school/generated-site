@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>zarządzanie pamięcią - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/zarz%C4%85dzanie-pami%C4%99ci%C4%85/</link>
+        <description>zarządzanie pamięcią - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jan 2019 13:37:57 &#43;0000</lastBuildDate><atom:link href="https://coders.school/tags/zarz%C4%85dzanie-pami%C4%99ci%C4%85/" rel="self" type="application/rss+xml" /><item>
+    <title>Mini kursy C&#43;&#43; – nasza nowa inicjatywa</title>
+    <link>https://coders.school/post/mini-kursy-c-nasza-nowa-inicjatywa/</link>
+    <pubDate>Sat, 12 Jan 2019 13:37:57 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/mini-kursy-c-nasza-nowa-inicjatywa/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Tydzień temu dodaliśmy do naszej oferty nowość, jaką są mini kursy C++. Do tej pory możecie zobaczyć w ofercie 3 takie mini kursy, którymi są: <a href="https://coders.school/mini-kursy-cpp/#stl" target="_blank" rel="noopener noreffer">Biblioteka STL i złożoność obliczeniowa</a>, <a href="https://coders.school/mini-kursy-cpp/#wielowatkowosc" target="_blank" rel="noopener noreffer">Wielowątkowość w C++</a> oraz <a href="https://coders.school/mini-kursy-cpp/#zarzadzanie-pamiecia" target="_blank" rel="noopener noreffer">Zarządzanie pamięcią w C++</a>. W produkcji kolejne!</p>]]></description>
+</item></channel>
+</rss>

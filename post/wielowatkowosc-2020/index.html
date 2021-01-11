@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Wielowątkowość w C++ w lutym i marcu 2020 | Coders Shool - szkoła prawdziwego C++</title>
+        <meta name="Description" content="Szkoła prawdziwego i nowoczesnego C++. Kursy C++ online i stacjonarne. Poziomy od początkujących, przez zaawansowanych, aż do prawdziwych ekspertów-ninja."><meta property="og:title" content="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020" />
+<meta property="og:description" content="Już niedługo w Coders School odbędzie się kurs wielowątkowość w języku C&#43;&#43;. Znajdziesz tu informacje o terminach spotkań, tematyce, trenerze, przygotowaniu, kosztach oraz zapisach." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coders.school/post/wielowatkowosc-2020/" />
+<meta property="og:image" content="https://coders.school/post/wielowatkowosc-2020/featured.png"/>
+<meta property="article:published_time" content="2020-01-08T13:47:02+00:00" />
+<meta property="article:modified_time" content="2020-04-29T00:32:34+02:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://coders.school/post/wielowatkowosc-2020/featured.png"/>
+<meta name="twitter:title" content="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020"/>
+<meta name="twitter:description" content="Już niedługo w Coders School odbędzie się kurs wielowątkowość w języku C&#43;&#43;. Znajdziesz tu informacje o terminach spotkań, tematyce, trenerze, przygotowaniu, kosztach oraz zapisach."/>
+<meta name="application-name" content="Coders School">
+<meta name="apple-mobile-web-app-title" content="Coders School"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://coders.school/post/wielowatkowosc-2020/" /><link rel="prev" href="https://coders.school/post/edycja-letnia-2019-kursu-cpp-zakonczona/" /><link rel="next" href="https://coders.school/post/podsumowanie-roku-2019/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><meta name="google-site-verification" content="7awM6eOkKNNpFMKM4jPdfyNxJkjPNYgm3IqR_ML8loY" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Wielowątkowość w C++ w lutym i marcu 2020",
+        "inLanguage": "pl",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/coders.school\/post\/wielowatkowosc-2020\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/cover.png",
+                "width":  960 ,
+                "height":  540 
+            },"genre": "posts","keywords": "c\u002b\u002b, mini kurs, wielowątkowość, wrocław","wordcount":  575 ,
+        "url": "https:\/\/coders.school\/post\/wielowatkowosc-2020\/","datePublished": "2020-01-08T13:47:02+00:00","dateModified": "2020-04-29T00:32:34+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "Coders School",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Łukasz Ziobroń"
+            },"description": ""
+    }
+    </script>
+<script>
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+    
+    var ml_account = ml('accounts', '1867098', 'a0j3g0e1f2', 'load');
+</script>
+
+</head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/kurs-online/"> Kurs C&#43;&#43; online </a><a class="menu-item" href="/sprawdz-sie/"> Test C&#43;&#43; </a><a class="menu-item" href="/poradnik/"> Poradnik </a><a class="menu-item" href="/resources/"> Książki </a><a class="menu-item" href="/o-nas/"> O nas </a><a class="menu-item" href="/faq/"> FAQ </a><a class="menu-item" href="/o-nas/#kontakt"> Kontakt </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/kurs-online/" title="">Kurs C&#43;&#43; online</a><a class="menu-item" href="/sprawdz-sie/" title="">Test C&#43;&#43;</a><a class="menu-item" href="/poradnik/" title="">Poradnik</a><a class="menu-item" href="/resources/" title="">Książki</a><a class="menu-item" href="/o-nas/" title="">O nas</a><a class="menu-item" href="/faq/" title="">FAQ</a><a class="menu-item" href="/o-nas/#kontakt" title="">Kontakt</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Spis treści</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Wielowątkowość w C&#43;&#43; w lutym i marcu 2020</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="o-nas/#trenerzy" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Łukasz Ziobroń</a></span>&nbsp;
+                    <span class="post-category">zawarty w<a href="/categories/post/">
+                                <i class="far fa-folder fa-fw"></i>Post
+                            </a>&nbsp;<a href="/categories/wielow%C4%85tkowo%C5%9B%C4%87/">
+                                <i class="far fa-folder fa-fw"></i>Wielowątkowość
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-01-08>2020-01-08</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>około 575 słów&nbsp;
+                <i class="far fa-clock fa-fw"></i>3 min&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading/normal.min.svg"
+        data-sizes="auto"
+        data-srcset="/post/wielowatkowosc-2020/featured.png, /post/wielowatkowosc-2020/featured.png 1.5x, /post/wielowatkowosc-2020/featured.png 2x"
+        data-src="/post/wielowatkowosc-2020/featured.png"
+        alt="/post/wielowatkowosc-2020/featured.png"
+        title="/post/wielowatkowosc-2020/featured.png" /></div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Spis treści</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#terminy-spotkań">Terminy spotkań</a></li>
+    <li><a href="#tematyka">Tematyka</a></li>
+    <li><a href="#co-daje-kurs">Co daje kurs?</a></li>
+    <li><a href="#trener">Trener</a></li>
+    <li><a href="#przygotowanie">Przygotowanie</a></li>
+    <li><a href="#koszty">Koszty</a></li>
+    <li><a href="#zapisy">Zapisy</a></li>
+    <li><a href="#rezygnacja">Rezygnacja</a></li>
+    <li><a href="#miejsce-zajęć">Miejsce zajęć</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Wszystkiego dobrego w Nowym Roku 🙂 Już niedługo w Coders School odbędzie się kurs wielowątkowość w języku C++. Oto detale:</p>
+<h2 id="terminy-spotkań">Terminy spotkań</h2>
+<ul>
+<li>16 lutego (niedziela) 10:00-15:00</li>
+<li>23 lutego (niedziela) 10:00-15:00</li>
+<li>1 marca (niedziela) 10:00-15:00</li>
+<li>8 marca (niedziela) 10:00-15:00</li>
+</ul>
+<h2 id="tematyka">Tematyka</h2>
+<ul>
+<li>wielowątkowość – teoria zrównoleglania</li>
+<li>wątki (std::thread)</li>
+<li>współdzielenie danych (mutex, locks)</li>
+<li>zmienne warunku (conditione_variable)</li>
+<li>zmienne atomowe (atomic)</li>
+<li>model pamięci (memory model)</li>
+<li>jednokrotne wywołania (call_once)</li>
+<li>komunikacja jednokierunkowa (future, promise)</li>
+<li>zadania asynchroniczne (async, packaged_task)</li>
+<li>problemy współbieżności</li>
+<li>współbieżne wzorce projektowe</li>
+<li>testowanie programów współbieżnych</li>
+</ul>
+<p>Powyższa tematyka pokrywa CAŁĄ część o wielowątkowości w bibliotece standardowej C++17. Opowiemy sobie też o rzeczach, które wejdą w C++20. Będzie dużo prac domowych oraz projekt grupowy, który będzie rozwijany podczas kursu 🙂</p>
+<h2 id="co-daje-kurs">Co daje kurs?</h2>
+<p>Kurs da Ci wiedzę z zakresu wielowątkowości, to znaczy z tego jak zachowują się programy, które mogą wykorzystywać wiele procesorów i rdzeni, aby przyspieszyć obliczenia. Dowiesz się i przekonasz o wielu problemach, które na 100% przydarzą Ci się podczas normalnej pracy z takimi aplikacjami, takimi jak synchronizacja danych, czy… spowolnienie programu podczas jego wykonania na wielu rdzeniach. Samo zagadnienie przetwarzania wieloprocesorowego oraz problemów synchronizacji jest uniwersalne dla każdego języka programowania. Twory takie jak wątki, mutexy czy zmienne warunku również są uniwersalne dla wielu języków programowanie. Po kursie oczywiście dostaniesz certyfikat jego ukończenia, jeśli uda Ci się zdobyć wymaganą liczbę punktów za zadania 🙂</p>
+<h2 id="trener">Trener</h2>
+<p><img width="300" height="199" src="https://coders.school/wp-content/uploads/2019/12/3_edycja-300x199.jpg" alt="Trener Łukasz Ziobroń" srcset="https://coders.school/wp-content/uploads/2019/12/3_edycja-300x199.jpg 300w, https://coders.school/wp-content/uploads/2019/12/3_edycja-1024x681.jpg 1024w, https://coders.school/wp-content/uploads/2019/12/3_edycja-768x511.jpg 768w, https://coders.school/wp-content/uploads/2019/12/3_edycja-750x500.jpg 750w, https://coders.school/wp-content/uploads/2019/12/3_edycja.jpg 1104w" sizes="100vw" /></p>
+<p>Co najmniej 90% kursu poprowadzę ja (Łukasz Ziobroń) 🙂</p>
+<p>Jest możliwe, że 10% poprowadzi nowy trener, którego przestawię w późniejszym czasie. Ja będę obecny na każdej lekcji.</p>
+<h2 id="przygotowanie">Przygotowanie</h2>
+<p>Aby uczestniczyć w tym kursie musisz mieć podstawową wiedzę o funkcjach lambda oraz zagadnieniach z C++11 (auto, using, pętla for po kolekcji, jednolita inicjalizacja, default, delete, override, semantyka przenoszenia). Wiedza o tym, czym jest RAII również się przyda.</p>
+<p>Bardzo polecam, aby pracować na Linuxie (lub na Macu). Linuxa możesz mieć zainstalowanego na laptopie natywnie, jako maszynę wirtualną w VirtualBoxie lub poprzez WSL w WIndows10. Oczywiście pod samym Windowsem też pisze się wielowątkowy kod, ale nie ma dobrych i darmowych narzędzi do testowania wielowątkowości pod Windowsem. Być może Visual Studio coś takiego posiada, ale ja zupełnie nie jestem w temacie. A sam Visual Studio w odróżnieniu od Visual Studio Code jest płatny.</p>
+<p>Zainstaluj sobie następujące programy:</p>
+<ul>
+<li>kompilator: g++ lub clang++</li>
+<li>IDE: Visual Studio Code lub vim 🙂</li>
+<li>valgrind</li>
+<li>gdb</li>
+</ul>
+<p>Jako bonus podrzucam też linka do fajnej gierki online – <a href="https://deadlockempire.github.io" target="_blank" rel="noopener noreffer">The Deadlock Empire</a>. Przechodząc kolejne jej poziomy będziesz uzyskiwać wiedzę z kolejnych mechanizmów wielowątkowości. Miłej zabawy 🙂</p>
+<h2 id="koszty">Koszty</h2>
+<p>Cały kurs Wielowątkowość w C++ kosztuje 1099 zł. Kolejne edycje wielowątkowości będą droższe, więc jeśli się wahasz to taniej może już nie być.</p>
+<h2 id="zapisy">Zapisy</h2>
+<p>Zapisy na kurs przyjmuję poprzez formularz, który pojawi się po kliknięciu poniższego przycisku. Po zapisaniu się otrzymasz email ze szczegółami organizacyjnymi oraz z informacją o płatności.</p>
+<a class="button" href="#" role="button">Kliknij tutaj, aby otworzyć formularz zapisowy (nieaktywne)</a>
+<p> </p>
+<h2 id="rezygnacja">Rezygnacja</h2>
+<p>W razie rezygnacji przed kursem zwracam 100% opłaty, więc gdyby coś Ci wyskoczyło to tylko daj znać, a zrobię zwrot. Zamierzam też dać damowy bonus wszystkim osobom zapisanym na kurs. Tego bonusu nie musisz w żaden sposób zwracać, bo będzie on w formie elektronicznej 🙂</p>
+<p>W przypadku późniejszej rezygnacji dostaniesz zwrot proporcjonalny do liczy zajęć, które odbyły się do momentu rezygnacji, czyli za zrezygnowanie w połowie otrzymasz zwrot połowy kosztów.</p>
+<h2 id="miejsce-zajęć">Miejsce zajęć</h2>
+<p>Miejsce zostanie ustalone dopiero po zakończeniu zapisów, ponieważ muszę znać liczbę osób, które się zapiszą. Jeśli chętnych będzie dużo, to możliwe że powstaną nawet 2 grupy.</p>
+<p>Jeśli masz jakiekolwiek pytania to zawsze możesz napisać mi maila albo wysłać wiadomość poprzez <a style="color: #cf802a;" href="/o-nas/#kontakt/">formularz kontaktowy</a> 🙂</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Artykuł ostatnio zaktualizowany 2020-04-29&nbsp;<a class="git-hash" href="https://github.com/coders-school/site/commit/668f80d28915937a246540b1d989c859c8fead0c" target="_blank" title="commit by Łukasz Ziobroń(lukasz@coders.school) 668f80d28915937a246540b1d989c859c8fead0c: Content modification to match to the new theme settings">
+                                <i class="fas fa-hashtag fa-fw"></i>668f80d</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/post/wielowatkowosc-2020/index.md" target="_blank">Zobacz Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Udostępnij na Twitter" data-sharer="twitter" data-url="https://coders.school/post/wielowatkowosc-2020/" data-title="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020" data-hashtags="c&#43;&#43;,mini kurs,wielowątkowość,wrocław"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Facebook" data-sharer="facebook" data-url="https://coders.school/post/wielowatkowosc-2020/" data-hashtag="c&#43;&#43;"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Linkedin" data-sharer="linkedin" data-url="https://coders.school/post/wielowatkowosc-2020/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na WhatsApp" data-sharer="whatsapp" data-url="https://coders.school/post/wielowatkowosc-2020/" data-title="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Hacker News" data-sharer="hackernews" data-url="https://coders.school/post/wielowatkowosc-2020/" data-title="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Reddit" data-sharer="reddit" data-url="https://coders.school/post/wielowatkowosc-2020/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Evernote" data-sharer="evernote" data-url="https://coders.school/post/wielowatkowosc-2020/" data-title="Wielowątkowość w C&#43;&#43; w lutym i marcu 2020"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href=""></a>,&nbsp;<a href="/tags/mini-kurs/">mini kurs</a>,&nbsp;<a href="/tags/wielow%C4%85tkowo%C5%9B%C4%87/">wielowątkowość</a>,&nbsp;<a href="/tags/wroc%C5%82aw/">wrocław</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Wstecz</a></span>&nbsp;|&nbsp;<span><a href="/">Strona główna</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/post/edycja-letnia-2019-kursu-cpp-zakonczona/" class="prev" rel="prev" title="Edycja letnia 2019 kursu C&#43;&#43; zakończona"><i class="fas fa-angle-left fa-fw"></i>Edycja letnia 2019 kursu C&#43;&#43; zakończona</a>
+            <a href="/post/podsumowanie-roku-2019/" class="next" rel="next" title="Podsumowanie roku 2019">Podsumowanie roku 2019<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="newsletter" id="newsletter">
+    <h4 class="newsletter-title">Pobierz materiały do nauki C++17</h4>
+    <div class="newsletter-form">
+        <div class="ml-form-embed"
+             data-account="1867098:a0j3g0e1f2"
+             data-form="1756746:o5h8s2">
+        </div>
+    </div>
+    <div class="newsletter-info">Zapisz się na newsletter i <strong>otrzymaj materiały do nauki nowoczesnego C++</strong>. Co jakiś czas przesyłam też darmowe fragmenty lekcji lub webinarów, dzięki którym C++ nie będzie aż taki trudny.<br>Zapoznaj się z naszą <a href="/polityka-prywatnosci">polityką prywatności</a>.</div>
+</div><div class="footer-line">Napędzany przez <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.76.5">Hugo</a> | Szablon - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="o-nas/#trenerzy" target="_blank">Łukasz Ziobroń</a></span>&nbsp;|&nbsp;<span class="license"><a rel="privacy internal" href="/polityka-prywatnosci/" target="_blank">Polityka prywatności</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Powrót do góry">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Zobacz komentarze">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Skopiuj do schowka","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

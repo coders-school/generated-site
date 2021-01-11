@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Test - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/categories/test/</link>
+        <description>Test - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 07 Jun 2017 23:16:47 &#43;0000</lastBuildDate><atom:link href="https://coders.school/categories/test/" rel="self" type="application/rss+xml" /><item>
+    <title>Sprawdź się</title>
+    <link>https://coders.school/sprawdz-sie/</link>
+    <pubDate>Wed, 07 Jun 2017 23:16:47 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/sprawdz-sie/</guid>
+    <description><![CDATA[Sprawdź swoją wiedzę o nowoczesnym C++. Wypełnij nasz test.]]></description>
+</item></channel>
+</rss>

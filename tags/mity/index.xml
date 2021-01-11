@@ -1,0 +1,27 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mity - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/mity/</link>
+        <description>mity - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 14 Jan 2020 17:09:59 &#43;0000</lastBuildDate><atom:link href="https://coders.school/tags/mity/" rel="self" type="application/rss+xml" /><item>
+    <title>Poradnik nauki programowania, czyli jak się uczyć C&#43;&#43; i innych języków</title>
+    <link>https://coders.school/poradnik/</link>
+    <pubDate>Tue, 14 Jan 2020 17:09:59 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/poradnik/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured-poradnik.jpg" referrerpolicy="no-referrer">
+            </div>Zastanawiasz się nad karierą programisty? Myślisz czego trzeba się nauczyć i jakie są wymagania na stanowisko juniorskie? Chcesz uczyć się skutecznie i osiągnąć dobre rezultaty w niedługim czasie? Jesteś w dobrym miejscu!
+Poradnik nauki programowania Nazywam się Łukasz Ziobroń i oddaję w Twoje ręce ten oto poradnik nauki programowania. Nauczam programowania od ponad 5 lat. Od ponad 8 lat programuję zawodowo, a jeśli doliczymy do tego projekty hobbystyczne to będzie już… 18 lat.]]></description>
+</item><item>
+    <title>10 rzeczy, które powinieneś wiedzieć, jeśli chcesz być programistą</title>
+    <link>https://coders.school/post/10-rzeczy-ktore-powinienes-wiedziec-jesli-chcesz-byc-programista/</link>
+    <pubDate>Wed, 12 Dec 2018 01:02:05 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/10-rzeczy-ktore-powinienes-wiedziec-jesli-chcesz-byc-programista/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Wokół zawodu programisty narosło wiele mitów, które są powielane przez osoby, nie mające żadnego pojęcia o programowaniu. W tym artykule znajdziesz 10 rzeczy, które powinieneś wiedzieć, jeśli chcesz być programistą. Jeśli nigdy nie pracowałeś jako programista, to zakładam, że większości z tych rzeczy nie jesteś świadomy.</p>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>praca - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/praca/</link>
+        <description>praca - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 30 Oct 2018 09:53:14 &#43;0000</lastBuildDate><atom:link href="https://coders.school/tags/praca/" rel="self" type="application/rss+xml" /><item>
+    <title>Absolwenci kursu C&#43;&#43; gotowi do pracy</title>
+    <link>https://coders.school/post/absolwenci-kursu-cpp-gotowi-do-pracy/</link>
+    <pubDate>Tue, 30 Oct 2018 09:53:14 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/absolwenci-kursu-cpp-gotowi-do-pracy/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div><p>Dwie grupy kursantów właśnie ukończyły kurs programowania w języku C++ w Coders School. Rekruterzy, mam niezwykle mocnych kandydatów na stanowiska juniorskie (a nawet wyższe), którzy wiedzą i doświadczeniem przebiją studentów uczelni wyższych.</p>]]></description>
+</item></channel>
+</rss>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Wyzwanie czystego kodu | Coders Shool - szkoła prawdziwego C++</title>
+        <meta name="Description" content="Szkoła prawdziwego i nowoczesnego C++. Kursy C++ online i stacjonarne. Poziomy od początkujących, przez zaawansowanych, aż do prawdziwych ekspertów-ninja."><meta property="og:title" content="Wyzwanie czystego kodu" />
+<meta property="og:description" content="Za Tobą już quiz z C&#43;&#43;, a to Twoje zadanie. Napisz aplikację, która szyfruje i deszyfruje tekst używając szyfru podstawieniowego. Szyfr podstawieniowy to po prostu podmiana liter tekstu na inne litery. Najprostszym przykładem jest szyfr Cezara, w którym każdy znak jest przesunięty o 3 pozycje.
+Przykład szyfru Cezara ALA MA KOTA → DOD PD LRWD (dla alfabetu łacińskiego, nie polskiego)
+Twoim zadaniem jednak nie jest implementacja szyfru Cezara, ale po prostu szyfru podstawieniowego." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coders.school/wyzwanie-stl/" />
+<meta property="article:published_time" content="2020-03-18T19:25:03+00:00" />
+<meta property="article:modified_time" content="2020-04-29T00:32:34+02:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Wyzwanie czystego kodu"/>
+<meta name="twitter:description" content="Za Tobą już quiz z C&#43;&#43;, a to Twoje zadanie. Napisz aplikację, która szyfruje i deszyfruje tekst używając szyfru podstawieniowego. Szyfr podstawieniowy to po prostu podmiana liter tekstu na inne litery. Najprostszym przykładem jest szyfr Cezara, w którym każdy znak jest przesunięty o 3 pozycje.
+Przykład szyfru Cezara ALA MA KOTA → DOD PD LRWD (dla alfabetu łacińskiego, nie polskiego)
+Twoim zadaniem jednak nie jest implementacja szyfru Cezara, ale po prostu szyfru podstawieniowego."/>
+<meta name="application-name" content="Coders School">
+<meta name="apple-mobile-web-app-title" content="Coders School"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://coders.school/wyzwanie-stl/" /><link rel="prev" href="https://coders.school/prezent-za-zgloszenie/" /><link rel="next" href="https://coders.school/wyzwanie-wydajnego-kodu/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><meta name="google-site-verification" content="7awM6eOkKNNpFMKM4jPdfyNxJkjPNYgm3IqR_ML8loY" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Wyzwanie czystego kodu",
+        "inLanguage": "pl",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/coders.school\/wyzwanie-stl\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/cover.png",
+                "width":  960 ,
+                "height":  540 
+            },"genre": "page","keywords": "wyzwanie, challenge, czysty kod, c\u002b\u002b, online, stl","wordcount":  430 ,
+        "url": "https:\/\/coders.school\/wyzwanie-stl\/","datePublished": "2020-03-18T19:25:03+00:00","dateModified": "2020-04-29T00:32:34+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "Coders School",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Łukasz Ziobroń"
+            },"description": ""
+    }
+    </script>
+<script>
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+    
+    var ml_account = ml('accounts', '1867098', 'a0j3g0e1f2', 'load');
+</script>
+
+</head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/kurs-online/"> Kurs C&#43;&#43; online </a><a class="menu-item" href="/sprawdz-sie/"> Test C&#43;&#43; </a><a class="menu-item" href="/poradnik/"> Poradnik </a><a class="menu-item" href="/resources/"> Książki </a><a class="menu-item" href="/o-nas/"> O nas </a><a class="menu-item" href="/faq/"> FAQ </a><a class="menu-item" href="/o-nas/#kontakt"> Kontakt </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/kurs-online/" title="">Kurs C&#43;&#43; online</a><a class="menu-item" href="/sprawdz-sie/" title="">Test C&#43;&#43;</a><a class="menu-item" href="/poradnik/" title="">Poradnik</a><a class="menu-item" href="/resources/" title="">Książki</a><a class="menu-item" href="/o-nas/" title="">O nas</a><a class="menu-item" href="/faq/" title="">FAQ</a><a class="menu-item" href="/o-nas/#kontakt" title="">Kontakt</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Spis treści</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><div class="page single special"><h1 class="single-title animated pulse faster">Wyzwanie czystego kodu</h1><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Spis treści</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#przykład-szyfru-cezara">Przykład szyfru Cezara</a></li>
+    <li><a href="#wymagania-obowiązkowe">Wymagania obowiązkowe</a></li>
+    <li><a href="#wymagania-dodatkowe-czyli-kryteria-oceny">Wymagania dodatkowe, czyli kryteria oceny</a></li>
+    <li><a href="#szkielet-kodu">Szkielet kodu</a></li>
+    <li><a href="#przysyłanie-rozwiązań">Przysyłanie rozwiązań</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Za Tobą już quiz z C++, a to Twoje zadanie. Napisz aplikację, która szyfruje i deszyfruje tekst używając szyfru podstawieniowego. Szyfr podstawieniowy to po prostu podmiana liter tekstu na inne litery. Najprostszym przykładem jest <a href="https://pl.wikipedia.org/wiki/Szyfr_Cezara" target="_blank" rel="noopener noreffer">szyfr Cezara</a>, w którym każdy znak jest przesunięty o 3 pozycje.</p>
+<h2 id="przykład-szyfru-cezara">Przykład szyfru Cezara</h2>
+<p><code>ALA MA KOTA</code> → <code>DOD PD LRWD</code> (dla alfabetu łacińskiego, nie polskiego)</p>
+<p>Twoim zadaniem jednak nie jest implementacja szyfru Cezara, ale po prostu szyfru podstawieniowego. W tym celu najpierw musisz zapisać gdzieś informacje, który znak przez jaki będzie zastąpiony. Ta informacja będzie kluczem, służącym do szyfrowania i/lub deszyfrowania. Np:</p>
+<ul>
+<li><code>a</code> → <code>g</code></li>
+<li><code>b</code> → <code>c</code></li>
+<li><code>c</code> → <code>z</code></li>
+<li><code>d</code> → <code>r</code></li>
+</ul>
+<p>&hellip; i tak dalej. Po zaszyfrowaniu takim kluczem ciągu <code>abcd</code> otrzymamy <code>gczr</code>. Aby odszyfrować szyfrogram <code>gczr</code> musimy zastosować operację odwrotną, czyli sprawdzić jaki znak został podmieniony na każdy kolejny z szyfrogramu.</p>
+<h2 id="wymagania-obowiązkowe">Wymagania obowiązkowe</h2>
+<ol>
+<li>Losowe generowanie klucza (innego przy każdym uruchomieniu)</li>
+<li>Szyfrowanie ciągu wejściowego (obojętnie czy jest to argument programu argv, cin, plik, czy string) i wypisanie rezultatu na ekranie (cout)</li>
+<li>Deszyfrowanie zaszyfrowanego wyżej ciągu i wypisanie rezultatu na ekranie (cout)</li>
+</ol>
+<h2 id="wymagania-dodatkowe-czyli-kryteria-oceny">Wymagania dodatkowe, czyli kryteria oceny</h2>
+<ol>
+<li>Obsługa wszystkich znaków drukowanych (cyfry, przecinki, kropki, wykrzykniki, małe i duże litery, spacje)</li>
+<li>Użycie jak najmniejszej liczby pętli (idealnie bez jakichkolwiek pętli for, do, while, for_each)</li>
+<li>Używanie algorytmów STL</li>
+<li>Elegancki i czysty kod (jednolite formatowanie, konwencje nazewnicze)</li>
+<li>Krótki kod</li>
+</ol>
+<h2 id="szkielet-kodu">Szkielet kodu</h2>
+<ol>
+<li>Zacznij uzupełniając poniższy program.</li>
+<li>Cały program może składać się tylko z jednego pliku .cpp, ale jeśli potrzebujesz ich więcej, to śmiało.</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-cpp" data-lang="cpp"><span class="cp">#include</span> <span class="cpf">&lt;string&gt; </span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt; </span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;cassert&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="c1">// TODO: Your implementation goes here
+</span><span class="c1"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="c1">// Feel free change below code if needed.
+</span><span class="c1"></span>
+    <span class="n">std</span><span class="o">::</span><span class="n">string</span> <span class="n">message</span> <span class="o">=</span> <span class="s">&#34;Hello, Coders School!&#34;</span><span class="p">;</span>
+    <span class="k">auto</span> <span class="n">key</span> <span class="o">=</span> <span class="n">generateKey</span><span class="p">();</span>
+    <span class="k">auto</span> <span class="n">cypher</span> <span class="o">=</span> <span class="n">encrypt</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">key</span><span class="p">);</span>
+    <span class="k">auto</span> <span class="n">result</span> <span class="o">=</span> <span class="n">decrypt</span><span class="p">(</span><span class="n">cypher</span><span class="p">,</span> <span class="n">key</span><span class="p">);</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Message: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">message</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Cypher: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">cypher</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">&#34;Result: &#34;</span> <span class="o">&lt;&lt;</span> <span class="n">result</span> <span class="o">&lt;&lt;</span> <span class="sc">&#39;\n&#39;</span><span class="p">;</span>
+
+    <span class="n">assert</span><span class="p">(</span><span class="n">message</span> <span class="o">==</span> <span class="n">result</span><span class="p">);</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="przysyłanie-rozwiązań">Przysyłanie rozwiązań</h2>
+<p>Aby przesłać mi rozwiązanie musisz mieć pewność, że spełnia ono wszystkie wymagania obowiązkowe. Im więcej wymagań dodatkowych zostanie spełnione, tym lepsza będzie ocena Twojego rozwiązania. Rozwiązanie prześlij na adres email <a href="mailto:lukasz@coders.school" rel="">lukasz@coders.school</a>. Tytuł maila: &ldquo;Wyzwanie czystego kodu&rdquo;. Treść:</p>
+<ul>
+<li>Link do repozytorium na GitHubie lub</li>
+<li>Link do Gista lub</li>
+<li>Plik źródłowy w załączniku (nie wysyłaj skompilowanego programu!)</li>
+</ul>
+<p>Wyniki wyzwania opublikuję na WWW i Facebooku Coders School 2 kwietnia. Ze zwycięzcami skontaktuję się mailowo. Zwycięskie rozwiązania zostaną opublikowane, aby wszystkie osoby biorące udział w wyzwaniu mogły porównać swój kod ze zwycięskim.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Artykuł ostatnio zaktualizowany 2020-04-29&nbsp;<a class="git-hash" href="https://github.com/coders-school/site/commit/668f80d28915937a246540b1d989c859c8fead0c" target="_blank" title="commit by Łukasz Ziobroń(lukasz@coders.school) 668f80d28915937a246540b1d989c859c8fead0c: Content modification to match to the new theme settings">
+                                <i class="fas fa-hashtag fa-fw"></i>668f80d</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/wyzwanie-stl/index.md" target="_blank">Zobacz Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Udostępnij na Twitter" data-sharer="twitter" data-url="https://coders.school/wyzwanie-stl/" data-title="Wyzwanie czystego kodu" data-hashtags="wyzwanie,challenge,czysty kod,c&#43;&#43;,online,stl"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Facebook" data-sharer="facebook" data-url="https://coders.school/wyzwanie-stl/" data-hashtag="wyzwanie"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Linkedin" data-sharer="linkedin" data-url="https://coders.school/wyzwanie-stl/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na WhatsApp" data-sharer="whatsapp" data-url="https://coders.school/wyzwanie-stl/" data-title="Wyzwanie czystego kodu" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Hacker News" data-sharer="hackernews" data-url="https://coders.school/wyzwanie-stl/" data-title="Wyzwanie czystego kodu"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Reddit" data-sharer="reddit" data-url="https://coders.school/wyzwanie-stl/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Evernote" data-sharer="evernote" data-url="https://coders.school/wyzwanie-stl/" data-title="Wyzwanie czystego kodu"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/wyzwanie/">wyzwanie</a>,&nbsp;<a href="/tags/challenge/">challenge</a>,&nbsp;<a href="/tags/czysty-kod/">czysty kod</a>,&nbsp;<a href=""></a>,&nbsp;<a href="/tags/online/">online</a>,&nbsp;<a href="/tags/stl/">stl</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Wstecz</a></span>&nbsp;|&nbsp;<span><a href="/">Strona główna</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/prezent-za-zgloszenie/" class="prev" rel="prev" title="Prezent za zgłoszenie"><i class="fas fa-angle-left fa-fw"></i>Prezent za zgłoszenie</a>
+            <a href="/wyzwanie-wydajnego-kodu/" class="next" rel="next" title="Wyzwanie wydajnego kodu">Wyzwanie wydajnego kodu<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div class="comment"><div id="comments"></div></div>
+    </div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="newsletter" id="newsletter">
+    <h4 class="newsletter-title">Pobierz materiały do nauki C++17</h4>
+    <div class="newsletter-form">
+        <div class="ml-form-embed"
+             data-account="1867098:a0j3g0e1f2"
+             data-form="1756746:o5h8s2">
+        </div>
+    </div>
+    <div class="newsletter-info">Zapisz się na newsletter i <strong>otrzymaj materiały do nauki nowoczesnego C++</strong>. Co jakiś czas przesyłam też darmowe fragmenty lekcji lub webinarów, dzięki którym C++ nie będzie aż taki trudny.<br>Zapoznaj się z naszą <a href="/polityka-prywatnosci">polityką prywatności</a>.</div>
+</div><div class="footer-line">Napędzany przez <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.76.5">Hugo</a> | Szablon - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="o-nas/#trenerzy" target="_blank">Łukasz Ziobroń</a></span>&nbsp;|&nbsp;<span class="license"><a rel="privacy internal" href="/polityka-prywatnosci/" target="_blank">Polityka prywatności</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Powrót do góry">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Zobacz komentarze">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/lightgallery/lightgallery.min.css"><style>.lg-toolbar .lg-icon::after { color: #999; }</style><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Skopiuj do schowka","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

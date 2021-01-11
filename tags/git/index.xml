@@ -1,0 +1,34 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/git/</link>
+        <description>git - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 02 Sep 2020 12:02:55 &#43;0200</lastBuildDate><atom:link href="https://coders.school/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Git w skrócie</title>
+    <link>https://coders.school/post/git-w-skrocie/</link>
+    <pubDate>Wed, 02 Sep 2020 12:02:55 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/git-w-skrocie/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Git - narzędzia programisty Znajomość systemów kontroli wersji jest kluczowa w pracy programisty. W przygotowanym fragmencie kursu C++ online znajdziesz kilka ważnych informacji odnośnie komend najpopularniejszego obecnie systemu kontroli wersji, czyli gita. Dzięki temu wideo poznasz albo odświeżysz sobie podstawy, jak tworzenie commit&rsquo;ów czy branch&rsquo;ów. Poruszam też bardziej zaawansowane kwestie, jak rozwiązywanie konfliktów, które mogą występować podczas merge&rsquo;owania.
+  ]]></description>
+</item><item>
+    <title>Kurs C&#43;&#43; dla przyszłych programistów</title>
+    <link>https://coders.school/post/kurs-c-dla-przyszlych-programistow/</link>
+    <pubDate>Wed, 18 Jul 2018 09:38:41 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/kurs-c-dla-przyszlych-programistow/</guid>
+    <description><![CDATA[W listopadzie planowana jest kolejna edycja kursu C++. Jest to kurs C++ dla przyszłych programistów. Kurs ten jest dedykowany wszystkim osobom, które mają akademickie doświadczenie w programowaniu, znają podstawy programowania obiektowego i chciałyby rozpocząć pracę jako programista C++.]]></description>
+</item><item>
+    <title>Zimowo-wiosenny kurs C&#43;&#43; zakończony</title>
+    <link>https://coders.school/post/zimowo-wiosenny-kurs-c-zakonczony/</link>
+    <pubDate>Fri, 25 May 2018 22:21:29 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/zimowo-wiosenny-kurs-c-zakonczony/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.jpg" referrerpolicy="no-referrer">
+            </div>Nasz zimowo-wiosenny kurs C++ zakończył się 13 maja 2018. Podczas kursu uczestnicy uczyli się m. in. o gicie, make-u i CMake-u, kompilatorach, zarządzaniu pamięcią, wyjątkach, STLu, C++11, C++14, C++17, Testowaniu (TDD, Google Test), refactoringu, zasadach SOLID, szablonach, Scrumie.]]></description>
+</item></channel>
+</rss>

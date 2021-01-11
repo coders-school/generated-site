@@ -1,0 +1,49 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mini kurs - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/mini-kurs/</link>
+        <description>mini kurs - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Jan 2020 13:47:02 &#43;0000</lastBuildDate><atom:link href="https://coders.school/tags/mini-kurs/" rel="self" type="application/rss+xml" /><item>
+    <title>Wielowątkowość w C&#43;&#43; w lutym i marcu 2020</title>
+    <link>https://coders.school/post/wielowatkowosc-2020/</link>
+    <pubDate>Wed, 08 Jan 2020 13:47:02 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/wielowatkowosc-2020/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Już niedługo w Coders School odbędzie się kurs wielowątkowość w języku C++. Znajdziesz tu informacje o terminach spotkań, tematyce, trenerze, przygotowaniu, kosztach oraz zapisach.]]></description>
+</item><item>
+    <title>Wielowątkowość w C&#43;&#43; 2019 – podsumowanie mini kursu</title>
+    <link>https://coders.school/post/wielowatkowosc-w-cpp-podsumowanie-mini-kursu/</link>
+    <pubDate>Wed, 22 May 2019 09:31:12 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/wielowatkowosc-w-cpp-podsumowanie-mini-kursu/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Jesteśmy już po pierwszej edycji kursu Wielowątkowość w C++. Był to zupełnie nowy kurs, przygotowany od zera w głównej mierze przeze mnie, ale nie tylko.</p>]]></description>
+</item><item>
+    <title>Mini kursy C&#43;&#43; – nasza nowa inicjatywa</title>
+    <link>https://coders.school/post/mini-kursy-c-nasza-nowa-inicjatywa/</link>
+    <pubDate>Sat, 12 Jan 2019 13:37:57 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/mini-kursy-c-nasza-nowa-inicjatywa/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Tydzień temu dodaliśmy do naszej oferty nowość, jaką są mini kursy C++. Do tej pory możecie zobaczyć w ofercie 3 takie mini kursy, którymi są: <a href="https://coders.school/mini-kursy-cpp/#stl" target="_blank" rel="noopener noreffer">Biblioteka STL i złożoność obliczeniowa</a>, <a href="https://coders.school/mini-kursy-cpp/#wielowatkowosc" target="_blank" rel="noopener noreffer">Wielowątkowość w C++</a> oraz <a href="https://coders.school/mini-kursy-cpp/#zarzadzanie-pamiecia" target="_blank" rel="noopener noreffer">Zarządzanie pamięcią w C++</a>. W produkcji kolejne!</p>]]></description>
+</item><item>
+    <title>FAQ</title>
+    <link>https://coders.school/faq/</link>
+    <pubDate>Wed, 05 Dec 2018 07:54:15 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/faq/</guid>
+    <description><![CDATA[FAQ czyli często zadawane pytania]]></description>
+</item><item>
+    <title>Co nas wyróżnia?</title>
+    <link>https://coders.school/co-nas-wyroznia/</link>
+    <pubDate>Wed, 31 May 2017 17:55:32 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/co-nas-wyroznia/</guid>
+    <description><![CDATA[<i class="fab fa-codiepie"></i>&nbsp;Język C++ Jest kilka szkół, które uczą głównie Web Developmentu (HTML, CSS, PHP, Javascript), ale mało która szkoła uczy języka C++, który przeżywa swoje odrodzenie. Myślisz, że lata świetności tego języka dawno temu minęły? Wiemy, że na uczelni wykładowcy nie są na czasie. Pewnie Twoi znajomi programiści też mówią, że w C++ to pisały dinozaury, a teraz są bardziej nowoczesne języki jak Javascript (tja&hellip; i co tydzień ucz się nowego frameworka).]]></description>
+</item></channel>
+</rss>

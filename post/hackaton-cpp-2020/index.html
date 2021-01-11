@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>Hackaton C++ 2020 - retro gry | Coders Shool - szkoła prawdziwego C++</title>
+        <meta name="Description" content="Szkoła prawdziwego i nowoczesnego C++. Kursy C++ online i stacjonarne. Poziomy od początkujących, przez zaawansowanych, aż do prawdziwych ekspertów-ninja."><meta property="og:title" content="Hackaton C&#43;&#43; 2020 - retro gry" />
+<meta property="og:description" content="Co potrafią zrobić początkujący programiści, gdy zamknie się ich na 24 godziny i zapewni pizzę? Więcej niż ktokolwiek się spodziewał.
+Zorganizowałem hackaton dla uczestników kursu C&#43;&#43; online. Robiliśmy małe retro gry :)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://coders.school/post/hackaton-cpp-2020/" />
+<meta property="og:image" content="https://coders.school/post/hackaton-cpp-2020/featured.jpg"/>
+<meta property="article:published_time" content="2020-10-07T12:39:48+02:00" />
+<meta property="article:modified_time" content="2020-10-07T13:27:40+02:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://coders.school/post/hackaton-cpp-2020/featured.jpg"/>
+<meta name="twitter:title" content="Hackaton C&#43;&#43; 2020 - retro gry"/>
+<meta name="twitter:description" content="Co potrafią zrobić początkujący programiści, gdy zamknie się ich na 24 godziny i zapewni pizzę? Więcej niż ktokolwiek się spodziewał.
+Zorganizowałem hackaton dla uczestników kursu C&#43;&#43; online. Robiliśmy małe retro gry :)"/>
+<meta name="application-name" content="Coders School">
+<meta name="apple-mobile-web-app-title" content="Coders School"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://coders.school/post/hackaton-cpp-2020/" /><link rel="prev" href="https://coders.school/post/analiza-wynik%C3%B3w-testu-cpp/" /><link rel="next" href="https://coders.school/post/cmake-w-skrocie/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><meta name="google-site-verification" content="7awM6eOkKNNpFMKM4jPdfyNxJkjPNYgm3IqR_ML8loY" /><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Hackaton C++ 2020 - retro gry",
+        "inLanguage": "pl",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/coders.school\/post\/hackaton-cpp-2020\/"
+        },"image": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/cover.png",
+                "width":  960 ,
+                "height":  540 
+            },"genre": "posts","keywords": "gry, hackaton","wordcount":  111 ,
+        "url": "https:\/\/coders.school\/post\/hackaton-cpp-2020\/","datePublished": "2020-10-07T12:39:48+02:00","dateModified": "2020-10-07T13:27:40+02:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+                "@type": "Organization",
+                "name": "Coders School",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/coders.school\/logo.png",
+                "width":  127 ,
+                "height":  40 
+                }
+            },"author": {
+                "@type": "Person",
+                "name": "Łukasz Ziobroń"
+            },"description": ""
+    }
+    </script>
+<script>
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+    var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+    f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+    var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+    _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+    
+    var ml_account = ml('accounts', '1867098', 'a0j3g0e1f2', 'load');
+</script>
+
+</head>
+    <body><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/kurs-online/"> Kurs C&#43;&#43; online </a><a class="menu-item" href="/sprawdz-sie/"> Test C&#43;&#43; </a><a class="menu-item" href="/poradnik/"> Poradnik </a><a class="menu-item" href="/resources/"> Książki </a><a class="menu-item" href="/o-nas/"> O nas </a><a class="menu-item" href="/faq/"> FAQ </a><a class="menu-item" href="/o-nas/#kontakt"> Kontakt </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Coders Shool - szkoła prawdziwego C&#43;&#43;">Coders School</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/kurs-online/" title="">Kurs C&#43;&#43; online</a><a class="menu-item" href="/sprawdz-sie/" title="">Test C&#43;&#43;</a><a class="menu-item" href="/poradnik/" title="">Poradnik</a><a class="menu-item" href="/resources/" title="">Książki</a><a class="menu-item" href="/o-nas/" title="">O nas</a><a class="menu-item" href="/faq/" title="">FAQ</a><a class="menu-item" href="/o-nas/#kontakt" title="">Kontakt</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Przełącz schemat">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Spis treści</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animated flipInX">Hackaton C&#43;&#43; 2020 - retro gry</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="o-nas/#trenerzy" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Łukasz Ziobroń</a></span>&nbsp;
+                    <span class="post-category">zawarty w<a href="/categories/post/">
+                                <i class="far fa-folder fa-fw"></i>Post
+                            </a>&nbsp;<a href="/categories/hackaton/">
+                                <i class="far fa-folder fa-fw"></i>Hackaton
+                            </a>&nbsp;<a href="/categories/featured/">
+                                <i class="far fa-folder fa-fw"></i>Featured
+                            </a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-10-07>2020-10-07</time>&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>około 111 słów&nbsp;
+                <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
+        </div><div class="featured-image"><img
+        class="lazyload"
+        src="/svg/loading/normal.min.svg"
+        data-sizes="auto"
+        data-srcset="/post/hackaton-cpp-2020/featured.jpg, /post/hackaton-cpp-2020/featured.jpg 1.5x, /post/hackaton-cpp-2020/featured.jpg 2x"
+        data-src="/post/hackaton-cpp-2020/featured.jpg"
+        alt="/post/hackaton-cpp-2020/featured.jpg"
+        title="/post/hackaton-cpp-2020/featured.jpg" /></div><div class="details toc" id="toc-static">
+                <div class="details-summary toc-title">
+                    <span>Spis treści</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#repozytoria-z-grami">Repozytoria z grami</a>
+      <ul>
+        <li><a href="#arkanoid">Arkanoid</a></li>
+        <li><a href="#tic-tac-toe">Tic Tac Toe</a></li>
+        <li><a href="#snake">Snake</a></li>
+        <li><a href="#bomberman">Bomberman</a></li>
+        <li><a href="#pong">Pong</a></li>
+        <li><a href="#bomberman-1">Bomberman</a></li>
+        <li><a href="#arkanoid-1">Arkanoid</a></li>
+        <li><a href="#asteroidshttpsgithubcomdarkariesxasteroids"><a href="https://github.com/DarkAriesX/Asteroids">Asteroids</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>Co potrafią zrobić początkujący programiści, gdy zamknie się ich na 24 godziny i zapewni pizzę? Więcej niż ktokolwiek się spodziewał.</p>
+<p>Zorganizowałem hackaton dla uczestników kursu C++ online. Robiliśmy małe retro gry :)</p>
+<p>Niesamowita zabawa, niesamowite wrażenia ze wspólnego kodzenia oraz efekty przechodzące najśmielsze oczekiwania.</p>
+<p>Zobacz krótkie wideo z tego wydarzenia.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube-nocookie.com/embed/4pN4AesfdTk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h2 id="repozytoria-z-grami">Repozytoria z grami</h2>
+<p>Gry tworzyliśmy oczywiście w C++ używając GitHuba. Model - open-source. Jeśli chcesz przyczynić się do rozwoju którejś z gier to śmiało! Poniżej wrzucam screeny i linki do repozytoriów. Zrób Forka repo, nanieś swoje modyfikacje i zgłoś Pull Request :)</p>
+<h3 id="arkanoid">Arkanoid</h3>
+<p><a href="https://github.com/J-Cieplinski/hackathon" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/J-Cieplinski/hackathon/raw/master/screenshots/screen3.png"/> <figcaption>
+            <h4>Arkanoid</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="tic-tac-toe">Tic Tac Toe</h3>
+<p><a href="https://github.com/marcindus/tictactoe" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/marcindus/tictactoe/raw/master/screenshots/3.png"/> <figcaption>
+            <h4>Tic Tac Toe</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="snake">Snake</h3>
+<p><a href="https://github.com/anraf1001/Snake-definitive-edition" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/anraf1001/Snake-definitive-edition/raw/master/screenshots/screenshot2.png"/> <figcaption>
+            <h4>Snake</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="bomberman">Bomberman</h3>
+<p><a href="https://github.com/LogarithmDerivative/Bomberman" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/LogarithmDerivative/Bomberman/raw/master/img/scrBomb1.PNG"/> <figcaption>
+            <h4>Bomberman</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="pong">Pong</h3>
+<p><a href="https://github.com/McKucia/Pong-Game" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/McKucia/Pong-Game/raw/master/ss/screenshot.png"/> <figcaption>
+            <h4>Pong</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="bomberman-1">Bomberman</h3>
+<p><a href="https://github.com/kari0036/BomberMan" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/kari0036/BomberMan/raw/master/img/screenshot.png"/> <figcaption>
+            <h4>Bomberman</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="arkanoid-1">Arkanoid</h3>
+<p><a href="https://github.com/NeoBauer/Arkanoid" target="_blank" rel="noopener noreffer"><figure>
+    <img src="https://github.com/NeoBauer/Arkanoid/raw/master/screenshots/Screenshot.png"/> <figcaption>
+            <h4>Arkanoid</h4>
+        </figcaption>
+</figure>
+</a></p>
+<h3 id="asteroidshttpsgithubcomdarkariesxasteroids"><a href="https://github.com/DarkAriesX/Asteroids" target="_blank" rel="noopener noreffer">Asteroids</a></h3></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Artykuł ostatnio zaktualizowany 2020-10-07&nbsp;<a class="git-hash" href="https://github.com/coders-school/site/commit/a54eb66540d31647e5950883e2aff303d967ecc0" target="_blank" title="commit by Łukasz Ziobroń(lukasz@coders.school) a54eb66540d31647e5950883e2aff303d967ecc0: Hackaton post added">
+                                <i class="fas fa-hashtag fa-fw"></i>a54eb66</a></span>
+            </div>
+            <div class="post-info-license"></div>
+        </div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/post/hackaton-cpp-2020/index.md" target="_blank">Zobacz Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Udostępnij na Twitter" data-sharer="twitter" data-url="https://coders.school/post/hackaton-cpp-2020/" data-title="Hackaton C&#43;&#43; 2020 - retro gry" data-hashtags="gry,hackaton"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Facebook" data-sharer="facebook" data-url="https://coders.school/post/hackaton-cpp-2020/" data-hashtag="gry"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Linkedin" data-sharer="linkedin" data-url="https://coders.school/post/hackaton-cpp-2020/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na WhatsApp" data-sharer="whatsapp" data-url="https://coders.school/post/hackaton-cpp-2020/" data-title="Hackaton C&#43;&#43; 2020 - retro gry" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Hacker News" data-sharer="hackernews" data-url="https://coders.school/post/hackaton-cpp-2020/" data-title="Hackaton C&#43;&#43; 2020 - retro gry"><i class="fab fa-hacker-news fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Reddit" data-sharer="reddit" data-url="https://coders.school/post/hackaton-cpp-2020/"><i class="fab fa-reddit fa-fw"></i></a><a href="javascript:void(0);" title="Udostępnij na Evernote" data-sharer="evernote" data-url="https://coders.school/post/hackaton-cpp-2020/" data-title="Hackaton C&#43;&#43; 2020 - retro gry"><i class="fab fa-evernote fa-fw"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/gry/">gry</a>,&nbsp;<a href="/tags/hackaton/">hackaton</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Wstecz</a></span>&nbsp;|&nbsp;<span><a href="/">Strona główna</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/post/analiza-wynik%C3%B3w-testu-cpp/" class="prev" rel="prev" title="Smutne wyniki testu C&#43;&#43; dwa lata później"><i class="fas fa-angle-left fa-fw"></i>Smutne wyniki testu C&#43;&#43; dwa lata później</a>
+            <a href="/post/cmake-w-skrocie/" class="next" rel="next" title="CMake w skrócie">CMake w skrócie<i class="fas fa-angle-right fa-fw"></i></a></div>
+</div>
+<div id="comments"></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="newsletter" id="newsletter">
+    <h4 class="newsletter-title">Pobierz materiały do nauki C++17</h4>
+    <div class="newsletter-form">
+        <div class="ml-form-embed"
+             data-account="1867098:a0j3g0e1f2"
+             data-form="1756746:o5h8s2">
+        </div>
+    </div>
+    <div class="newsletter-info">Zapisz się na newsletter i <strong>otrzymaj materiały do nauki nowoczesnego C++</strong>. Co jakiś czas przesyłam też darmowe fragmenty lekcji lub webinarów, dzięki którym C++ nie będzie aż taki trudny.<br>Zapoznaj się z naszą <a href="/polityka-prywatnosci">polityką prywatności</a>.</div>
+</div><div class="footer-line">Napędzany przez <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.76.5">Hugo</a> | Szablon - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.6"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2017 - 2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="o-nas/#trenerzy" target="_blank">Łukasz Ziobroń</a></span>&nbsp;|&nbsp;<span class="license"><a rel="privacy internal" href="/polityka-prywatnosci/" target="_blank">Polityka prywatności</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Powrót do góry">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="Zobacz komentarze">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript">
+    window.config = {"code":{"copyTitle":"Skopiuj do schowka","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

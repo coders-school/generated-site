@@ -1,0 +1,54 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Raport - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/categories/raport/</link>
+        <description>Raport - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Oct 2020 12:00:00 &#43;0200</lastBuildDate><atom:link href="https://coders.school/categories/raport/" rel="self" type="application/rss+xml" /><item>
+    <title>Smutne wyniki testu C&#43;&#43; dwa lata później</title>
+    <link>https://coders.school/post/analiza-wynik%C3%B3w-testu-cpp/</link>
+    <pubDate>Fri, 02 Oct 2020 12:00:00 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/analiza-wynik%C3%B3w-testu-cpp/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Na naszej stronie dostępny jest test, w którym możesz sprawdzić swoją wiedzę z C++. Rozwiązać go może każdy, niezależnie od poziomu wiedzy i umiejętności. Test składa się z ośmiu zamkniętych pytań o zróżnicowanym poziomie trudności. Pytania dotyczą wiedzy w zakresie znajomości C++. Odpowiedzi można udzielać wielokrotnie, a sam test jest anonimowy. Możesz więc potraktować go jako sprawdzenie swojej wiedzy i umiejętności, które powinno Ci zająć około 10 minut.
+Omówienie i porównanie wyników ogólnych W dniu sporządzania tego wpisu (22.]]></description>
+</item><item>
+    <title>Kurs C&#43;&#43; online - podsumowanie maja</title>
+    <link>https://coders.school/post/kurs-cpp-online-podsumowanie-maja/</link>
+    <pubDate>Fri, 29 May 2020 12:02:55 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/kurs-cpp-online-podsumowanie-maja/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Mija maj i zarazem pierwszy etap naszego kursu C++ online. Postanowiłem napisać małe podsumowanie, jak wyglądał on z mojej perspektywy.</p>]]></description>
+</item><item>
+    <title>Sprzedaż kursu C&#43;&#43; online zakonczona</title>
+    <link>https://coders.school/post/sprzedaz-kursu-online-zakonczona/</link>
+    <pubDate>Mon, 04 May 2020 12:37:55 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/sprzedaz-kursu-online-zakonczona/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Wraz z końcem kwietnia zakończyłem sprzedaż kursu C++ online. Wyniki sprzedaży przekroczyły moje oczekiwania :) Bardzo dziękuję za zaufanie. Są też plany na jeszcze inny kurs w tym roku.</p>]]></description>
+</item><item>
+    <title>Podsumowanie roku 2019</title>
+    <link>https://coders.school/post/podsumowanie-roku-2019/</link>
+    <pubDate>Sun, 02 Feb 2020 15:24:15 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/podsumowanie-roku-2019/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Minął już szał na podsumowania poprzedniego roku, bo minął już pierwszy miesiąc nowego roku. Aby nie wpaść do mainstreamu postanowiłem się wyróżnić i tak samo jak w poprzednim roku publikuję podsumowanie poprzedniego dopiero teraz 🙂</p>]]></description>
+</item><item>
+    <title>Podsumowanie roku 2018</title>
+    <link>https://coders.school/post/podsumowanie-roku-2018/</link>
+    <pubDate>Wed, 30 Jan 2019 23:23:00 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/podsumowanie-roku-2018/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Przyszedł czas na podsumowanie poprzedniego roku. Dlaczego piszę ten wpis dopiero teraz a nie na samym początku roku? Powód jest prosty - mało czasu. Ale myślę, że koniec stycznia jest lepszy na publikację podsumowania niż jego początek. Gdy mija już Blue Monday i większość ludzi łapie doła z powodu słabej realizacji noworocznych postanowień, dobrze jest przysiąść jeszcze raz nad planami na Nowy Rok i bardziej je urealnić.</p>]]></description>
+</item></channel>
+</rss>

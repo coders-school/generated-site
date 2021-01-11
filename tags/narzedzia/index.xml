@@ -1,0 +1,43 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>narzedzia - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/tags/narzedzia/</link>
+        <description>narzedzia - Tag - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 26 Nov 2020 13:00:05 &#43;0200</lastBuildDate><atom:link href="https://coders.school/tags/narzedzia/" rel="self" type="application/rss+xml" /><item>
+    <title>Debuggery w skrócie</title>
+    <link>https://coders.school/post/debuggery-w-skrocie/</link>
+    <pubDate>Thu, 26 Nov 2020 13:00:05 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/debuggery-w-skrocie/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Debuggery - narzędzia programisty Debugger to kolejne narzędzie potrzebne każdemu programiście, które pozwala zaoszczędzić godziny, dni lub tygodnie szukania błędu w naszym kodzie.
+Dają one możliwość kontrolowania wykonywanego programu - zatrzymywania go, wykonywania instrukcji krok po kroku i śledzenia wartości poszczególnych zmiennych.
+W tym skrócie z lekcji kursu C++ znajdziesz informacje jak używać debuggerów GDB i LLDB.
+  ]]></description>
+</item><item>
+    <title>CMake w skrócie</title>
+    <link>https://coders.school/post/cmake-w-skrocie/</link>
+    <pubDate>Thu, 08 Oct 2020 13:00:00 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/cmake-w-skrocie/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>CMake - narzędzia programisty Zapewne słyszałeś już o CMake. To wieloplatformowe narzędzie pozwala na automatyzację budowania projektów w różnych środowiskach. Jego popularność oraz uniwersalność sprawiają, że ciężko obecnie wyobrazić sobie pracę bez niego.
+Nie każdy jednak wie, jak CMake&rsquo;a używać.
+W naszym kursie C++ dobrze wiemy, jak ważny jest CMake i uczymy go naszych studentów. W tym filmie znajduje się ekstrakt z takiej lekcji.
+  ]]></description>
+</item><item>
+    <title>Make w skrócie</title>
+    <link>https://coders.school/post/make-w-skrocie/</link>
+    <pubDate>Thu, 01 Oct 2020 13:00:55 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/make-w-skrocie/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Make - narzędzia programisty Obecnie nikt nie wyobraża sobie kompilowania dużych projektów programistycznych bez systemu budowania.
+Dzięki Make możemy zautomatyzować proces kompilacji plików źródłowych i ich zależności. Możemy dzięki temu przyspieszyć kompilację, bo nie musimy przebudowywać plików obiektowych, które nie są zależne od naszych zmian. Aby jednak to osiągnąć, należy wiedzieć czym są pliki Makefile i jak ich używać.
+Jeśli nie wiesz jak tworzyć pliki Makefile, usiądź wygodnie i obejrzyj ten krótki film o Make podczas swojej przerwy na kawę ☕.]]></description>
+</item></channel>
+</rss>

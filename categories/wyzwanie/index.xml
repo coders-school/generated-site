@@ -1,0 +1,53 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Wyzwanie - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</title>
+        <link>https://coders.school/categories/wyzwanie/</link>
+        <description>Wyzwanie - Kategoria - Coders Shool - szkoła prawdziwego C&#43;&#43;</description>
+        <generator>Hugo -- gohugo.io</generator><language>pl</language><managingEditor>lukasz@coders.school (Łukasz Ziobroń)</managingEditor>
+            <webMaster>lukasz@coders.school (Łukasz Ziobroń)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 24 Apr 2020 08:29:21 &#43;0200</lastBuildDate><atom:link href="https://coders.school/categories/wyzwanie/" rel="self" type="application/rss+xml" /><item>
+    <title>Wyniki wyzwania wydajnego kodu</title>
+    <link>https://coders.school/post/wyniki-wyzwania-wydajnego-kodu/</link>
+    <pubDate>Fri, 24 Apr 2020 08:29:21 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/wyniki-wyzwania-wydajnego-kodu/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Omówienie wyników wyzwania wydajnego kodu w C++, którym był konwerter liczb z rzymskich na arabskie i odwrotnie. Zobacz zwycięskie rozwiązania i przeczytaj o najczęściej popełnianych błędach lub obejrzyj to w formie wideo.]]></description>
+</item><item>
+    <title>Wyzwanie wydajnego kodu - wygraj zniżkę na kurs C&#43;&#43; online</title>
+    <link>https://coders.school/post/wyzwanie-wydajnego-kodu/</link>
+    <pubDate>Mon, 13 Apr 2020 17:56:40 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/wyzwanie-wydajnego-kodu/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div><p>Ruszyło właśnie nowe wyzwanie! Tym razem jest to <strong>wyzwanie wydajnego kodu</strong>. Jak można się spodziewać po nazwie, rozwiązania zostaną przetestowane pod kątem ich <strong>złożoności obliczeniowej i optymalizacji</strong>. Nie chcę zdradzać za dużo szczegółów, ale mogę zdradzić, że do zaimplementowania jest <strong>konwersja pomiędzy dwoma systemami liczbowymi</strong>. Pełny opis zadania oraz lista wymagań są dostępne dla osób, które najpierw odpowiedzą na 3 pytania w quizie o C++ i zarejestrują się na wyzwanie.</p>]]></description>
+</item><item>
+    <title>Wyzwanie wydajnego kodu</title>
+    <link>https://coders.school/wyzwanie-wydajnego-kodu/</link>
+    <pubDate>Sun, 12 Apr 2020 20:41:39 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/wyzwanie-wydajnego-kodu/</guid>
+    <description><![CDATA[<h2 id="zadanie">Zadanie</h2>
+<p>Oto twoje zadanie. Napisz bibliotekę nagłówkową (header-only) do konwersji liczb z arabskich na rzymskie i odwrotnie.</p>
+<p>Do zaimplementowania masz dokładnie 2 funkcje, które muszą nazywać się <code>toRoman()</code> (konwersja z arabskich na rzymskie) oraz <code>fromRoman()</code> (konwersja z rzymskich na arabskie)</p>]]></description>
+</item><item>
+    <title>Wyniki wyzwania czystego kodu</title>
+    <link>https://coders.school/post/wyniki-wyzwania-czystego-kodu/</link>
+    <pubDate>Thu, 02 Apr 2020 22:40:05 &#43;0200</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/post/wyniki-wyzwania-czystego-kodu/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/featured.png" referrerpolicy="no-referrer">
+            </div>Dzisiaj 2 kwietnia i tak jak obiecałem publikuję wyniki wyzwania czystego kodu, w którym można było wygrać zniżki na kurs C++ online. Wyzwanie polegało na implementacji szyfru podstawieniowego, a cała trudność polegała na tym, że użycie pętli było karane. Należało używać algorytmów STL.]]></description>
+</item><item>
+    <title>Wyzwanie czystego kodu</title>
+    <link>https://coders.school/wyzwanie-stl/</link>
+    <pubDate>Wed, 18 Mar 2020 19:25:03 &#43;0000</pubDate>
+    <author>Autor</author>
+    <guid>https://coders.school/wyzwanie-stl/</guid>
+    <description><![CDATA[Za Tobą już quiz z C++, a to Twoje zadanie. Napisz aplikację, która szyfruje i deszyfruje tekst używając szyfru podstawieniowego. Szyfr podstawieniowy to po prostu podmiana liter tekstu na inne litery. Najprostszym przykładem jest szyfr Cezara, w którym każdy znak jest przesunięty o 3 pozycje.
+Przykład szyfru Cezara ALA MA KOTA → DOD PD LRWD (dla alfabetu łacińskiego, nie polskiego)
+Twoim zadaniem jednak nie jest implementacja szyfru Cezara, ale po prostu szyfru podstawieniowego.]]></description>
+</item></channel>
+</rss>
